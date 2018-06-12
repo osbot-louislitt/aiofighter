@@ -1,14 +1,16 @@
 package settings;
 
+import org.osbot.rs07.api.model.NPC;
+
 public class AttackList {
 
-    private String[] npcs;
+    private NPC[] npcs;
 
-    public String[] getNpcs() {
+    public NPC[] getNpcs() {
         return npcs;
     }
 
-    public void setNpcs(String[] npcs) {
+    public void setNpcs(NPC[] npcs) {
         this.npcs = npcs;
     }
 }
