@@ -9,7 +9,7 @@ import javax.swing.*;
 import javax.swing.border.*;
 
 /**
- * @author Shannon Turnbull
+ * @author Louis Litt (https://github.com/osbot-louislitt)
  */
 public class UI {
     public UI() {
