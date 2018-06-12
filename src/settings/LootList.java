@@ -1,14 +1,16 @@
 package settings;
 
+import org.osbot.rs07.api.model.GroundItem;
+
 public class LootList {
 
-    private String[] items;
+    private GroundItem[] items;
 
-    public String[] getItems() {
+    public GroundItem[] getItems() {
         return items;
     }
 
-    public void setItems(String[] items) {
+    public void setItems(GroundItem[] items) {
         this.items = items;
     }
 }
